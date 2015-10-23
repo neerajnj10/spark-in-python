@@ -16,8 +16,8 @@
 In [ ]:
 
 import pandas as pd
-
-mtcars = pd.read_csv('https://ibm.box.com/shared/static/f1dhhjnzjwxmy2c1ys2whvrgz05d1pui.csv')
+import importr 
+mtcars = pd.read_csv('mtcars.csv')
 mtcars.head()
 
 #Initialize SQLContext
