@@ -22,9 +22,9 @@ mtcars.head()
 
 #Initialize SQLContext
 
-To work with dataframes we need a SQLContext which is created using SQLContext(sp). SQLContext uses SparkContext(sp) created.
+To work with dataframes we need a SQLContext which is created using SQLContext(sc). SQLContext uses SparkContext(sp) created.
 
-sqlContext = SQLContext(sp)
+sqlContext = SQLContext(sc)
 
 #Creating Spark DataFrames
 
